@@ -323,6 +323,8 @@ class QRViewController {
     if (defaultTargetPlatform == TargetPlatform.iOS) {
       // Add small delay to ensure the render box is loaded
       await Future.delayed(Duration(milliseconds: 1000));
+      print("##### updateDimensions changed");
+      
       if (key.currentContext == null) return false;
       final renderBox = key.currentContext!.findRenderObject() as RenderBox;
       try {
