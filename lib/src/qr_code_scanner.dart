@@ -322,8 +322,8 @@ class QRViewController {
       {QrScannerOverlayShape? overlay}) async {
     if (defaultTargetPlatform == TargetPlatform.iOS) {
       // Add small delay to ensure the render box is loaded
-      await Future.delayed(Duration(milliseconds: 500));
-      print("##### updateDimensions changed2");
+      await Future.delayed(Duration(milliseconds: 400));
+      print("##### updateDimensions changed3");
       
       if (key.currentContext == null) return false;
       final renderBox = key.currentContext!.findRenderObject() as RenderBox;
