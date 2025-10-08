@@ -29,7 +29,7 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 30
 
-    namespace 'com.nownsys.eztexapp'
+    namespace 'net.touchcapture.qr.flutterqr'
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
