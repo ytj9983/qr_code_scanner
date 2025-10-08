@@ -26,8 +26,6 @@ apply plugin: 'kotlin-android'
 //apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
-kotlin.jvm.target.validation.mode = IGNORE
-
 android {
     compileSdkVersion 30
 
